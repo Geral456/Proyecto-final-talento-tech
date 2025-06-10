@@ -1,0 +1,53 @@
+
+.encabezado,.ul-nav {
+    background-color: rgb(38, 134, 197);
+    text-align: center;
+}
+
+.logo{
+    height: 90px;
+    margin-top: 10px;
+}
+
+.item-nav{
+    display: inline-block;
+    padding-bottom: 16px;
+    padding: 1em 5em 1em 5em;
+}
+
+.item-a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.pie-pagina{
+    background-color: rgb(21, 55, 78);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.columna{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 50px; 
+
+}
+
+.footer-ul li,.footer-ul a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+@media screen and (max-width:600px){
+    .item-a{
+        font-size: 20px;
+    }     
+}

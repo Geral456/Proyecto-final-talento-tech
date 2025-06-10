@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"New Rocker", system-ui;
+}
+.main{
+    padding: 30px 30px 87px 30px;
+}
+
+.ul-album{
+    margin-left: 50px;
+    font-size: 25px;
+}

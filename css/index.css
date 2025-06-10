@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"New Rocker", system-ui;
+}
+
+main{
+    text-align: center;
+}
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-size:22px;
+    margin-top: 20px;
+}
+
+.img-ado{
+        width: 60%;
+}  
+

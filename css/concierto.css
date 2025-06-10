@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "New Rocker", system-ui;
+}
+.main{
+    padding: 10px 10px 87px 10px;
+    text-align: center;
+}
+
+.ul-concierto{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:center;
+    gap: 10px;
+}
+
+.ul-concierto li{
+    margin-top: 15px;
+    border: 1px solid gray;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.li-enlace{
+    color: black;
+}
+
+.li-enlace img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.li-enlace div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 600px){
+    .ul-concierto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ul-concierto li{
+    margin-top: 15px;
+    border: 1px solid gray;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+    
+    
+}
